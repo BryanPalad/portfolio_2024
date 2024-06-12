@@ -21,7 +21,9 @@ const RecentProjects = () => {
                           <img
                             src={img}
                             alt={title}
-                            className='z-10 absolute bottom-0'
+                            className='z-10 absolute py-4 lg:py-8'
+                            width={600}
+                            height={600}
                           />
                        </div>
                        <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>{title}</h1>
