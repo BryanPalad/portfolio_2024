@@ -249,13 +249,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/BryanPalad"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.facebook.com/BryanPalad.15"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/twit.svg",
+    link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/"
   },
 ];
