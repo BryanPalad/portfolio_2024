@@ -70,48 +70,13 @@ export const gridItems = [
   },
 ];
 
-// export const projects = [
-//   {
-//     id: 1,
-//     title: "3D Solar System Planets to Explore",
-//     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-//     img: "/p1.svg",
-//     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-//     link: "https://github.com/adrianhajdin?tab=repositories",
-//   },
-//   {
-//     id: 2,
-//     title: "Yoom - Video Conferencing App",
-//     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-//     img: "/p2.svg",
-//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-//     link: "https://github.com/adrianhajdin/zoom-clone",
-//   },
-//   {
-//     id: 3,
-//     title: "AI Image SaaS - Canva Application",
-//     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-//     img: "/p3.svg",
-//     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-//     link: "https://github.com/adrianhajdin/ai_saas_app",
-//   },
-//   {
-//     id: 4,
-//     title: "Animated Apple Iphone 3D Website",
-//     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-//     img: "/p4.svg",
-//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-//     link: "https://github.com/adrianhajdin/iphone",
-//   },
-// ];
-
 export const projects = [
   {
     id: 1,
     title: "Tesla UI",
     des: "Mini project that helps me utilize my skills in responsive web development (Media queries, flex box and SCSS).",
     img: "/projectsImg/teslaclone.PNG",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/sass.svg"],
     link: "https://teslaui-eight.vercel.app/",
   },
   {
@@ -119,7 +84,7 @@ export const projects = [
     title: "Sneaks Ecommerce",
     des: "An Ecommerce project selling different brands  of shoes with cart functionality and responsive web design.",
     img: "/projectsImg/Sneaks.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/tailwind.png"],
     link: "https://sneaks-commerce.vercel.app/",
   },
   {
@@ -127,7 +92,7 @@ export const projects = [
     title: "Weather/News App",
     des: "An app that gets the actual weather status and news, built in react js, redux toolkit and used 3 API's (Open Weather API's and Bing News Api).",
     img: "/projectsImg/weatherapp.PNG",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
     link: "https://miniweather-news-app.netlify.app/",
   },
   {
@@ -135,7 +100,7 @@ export const projects = [
     title: "Cryptoverse",
     des: "App that shows all existing crypto coins and their details (price, description, ranking), and news (CoinRanking, Bing News API).",
     img: "/projectsImg/Cryptoverse.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/antdesign.png"],
     link: "https://cryptoversemini.netlify.app/",
   },
   {
@@ -143,7 +108,7 @@ export const projects = [
     title: "Expense Tracker",
     des: "A simple CRUD expenses tracker using react js and redux toolkit with localstorage to store expenses history on browser.",
     img: "/projectsImg/expensetracker.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
     link: "https://expensestracker-five.vercel.app/",
   },
   {
@@ -151,7 +116,7 @@ export const projects = [
     title: "PayLoro Website",
     des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
     img: "/projectsImg/payloroWeb.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [],
     link: "https://www.payloro.ph/#/",
   },
   {
@@ -159,7 +124,7 @@ export const projects = [
     title: "PayLoro Wallet",
     des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
     img: "/projectsImg/payloro.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [],
     link: "https://www.payloro.ph/#/",
   },
 ];
@@ -214,34 +179,174 @@ export const companies = [
   // },
 ];
 
-export const workExperience = [
+export const techStacks = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    stacks: [
+      {
+        title: "HTML5",
+        img: "/skills/frontend/html5.png"
+      },
+      {
+        title: "CSS3",
+        img: "/skills/frontend/css3.png"
+      },
+      {
+        title: "SASS",
+        img: "/skills/frontend/sass.svg"
+      },
+      {
+        title: "Javascript",
+        img: "/skills/frontend/js.png"
+      },
+      {
+        title: "React Js",
+        img: "/skills/frontend/reactjs.png"
+      },
+      {
+        title: "React Redux",
+        img: "/skills/frontend/redux.png"
+      },
+      {
+        title: "Vue Js",
+        img: "/skills/frontend/vuejs.png"
+      },
+      {
+        title: "Bootstrap",
+        img: "/skills/frontend/bootstrap.png"
+      },
+      {
+        title: "Material UI",
+        img: "/skills/frontend/mui.png"
+      },
+      // {
+      //   title: "Ant Design",
+      //   img: "/skills/frontend/antdesign.png"
+      // },
+      // {
+      //   title: "tailwind",
+      //   img: "/skills/frontend/tailwind.png"
+      // },
+      // {
+      //   title: "Aceternity",
+      //   img: "/skills/frontend/aceternity.png"
+      // },
+    ]
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Backend",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
+    stacks: [
+      // {
+      //   title: "Next Js",
+      //   img: "/skills/backend/nextjs.png"
+      // },
+      // {
+      //   title: "Node Js",
+      //   img: "/skills/backend/nodejs.png"
+      // },
+      {
+        title: "PHP",
+        img: "/skills/backend/php.png"
+      },
+      {
+        title: "Laravel",
+        img: "/skills/backend/laravel.png"
+      },
+      {
+        title: "Java",
+        img: "/skills/backend/java.png"
+      },
+      {
+        title: "Java Spring Boot",
+        img: "/skills/backend/spring.png"
+      },
+      {
+        title: "C#",
+        img: "/skills/backend/c-sharp.png"
+      },
+    ]
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: "Deployment & Database",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+    stacks: [
+      {
+        title: "MySQL",
+        img: "/skills/database/mysql.png"
+      },
+      {
+        title: "PostgreSQL",
+        img: "/skills/database/postgre.png"
+      },
+      {
+        title: "Netlify",
+        img: "/skills/database/netlify.png"
+      },
+      {
+        title: "Vercel",
+        img: "/skills/database/vercel.png"
+      },
+      {
+        title: "Git",
+        img: "/skills/database/git.png"
+      },
+      {
+        title: "Github",
+        img: "/skills/database/github.png"
+      },
+      {
+        title: "Gitlab",
+        img: "/skills/database/gitlab.webp"
+      },
+    ]
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Tools",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+    stacks: [
+      {
+        title: "VSCode",
+        img: "/skills/tools/vscode.png"
+      },
+      {
+        title: "Intellij",
+        img: "/skills/tools/intellij.png"
+      },
+      {
+        title: "DataGrip",
+        img: "/skills/tools/datagrip.png"
+      },
+      {
+        title: "Postman",
+        img: "/skills/tools/postman.png"
+      },
+      {
+        title: "NPM",
+        img: "/skills/tools/npm.png"
+      },
+      {
+        title: "ChatGPT",
+        img: "/skills/tools/chatgpt.png"
+      },
+      {
+        title: "Figma",
+        img: "/skills/tools/figma.png"
+      },
+    ]
   },
 ];
 
