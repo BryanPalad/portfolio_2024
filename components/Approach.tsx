@@ -9,13 +9,13 @@ const Approach = () => {
     <section className="w-fll py-20">
     <h1 className="heading">My <span className="text-purple">approach</span></h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
+        <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} description="Collaborate with stakeholders to define project requirements, scope, and goals. Create a detailed project roadmap, select technologies, and establish timelines and milestones.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2" />} description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
+        <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2" />} description="Focus on coding and design, adhering to best practices. Provide regular progress updates and feedback opportunities to ensure transparency and address issues promptly.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -26,7 +26,7 @@ const Approach = () => {
             dotSize={2}
           />
         </Card>
-        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3"/>} description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
+        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3"/>} description="Conduct thorough testing to ensure quality and performance. Coordinate a smooth deployment and provide post-launch support to address any immediate concerns or improvements.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
