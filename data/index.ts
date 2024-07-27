@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I focus on client partnership and clear communication in development.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Seeking collaboration opportunities with global clients.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for web development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently exploring backend technologies.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -78,14 +78,18 @@ export const projects = [
     img: "/projectsImg/teslaclone.PNG",
     iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/sass.svg"],
     link: "https://teslaui-eight.vercel.app/",
+    googleplayLink: "",
+    appstoreLink: ""
   },
   {
     id: 2,
     title: "Sneaks Ecommerce",
     des: "An Ecommerce project selling different brands  of shoes with cart functionality and responsive web design.",
-    img: "/projectsImg/Sneaks.PNG",
+    img: "/projectsImg/Sneaks.png",
     iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/tailwind.png"],
     link: "https://sneaks-commerce.vercel.app/",
+    googleplayLink: "",
+    appstoreLink: ""
   },
   {
     id: 3,
@@ -94,6 +98,8 @@ export const projects = [
     img: "/projectsImg/weatherapp.PNG",
     iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
     link: "https://miniweather-news-app.netlify.app/",
+    googleplayLink: "",
+    appstoreLink: ""
   },
   {
     id: 4,
@@ -102,6 +108,8 @@ export const projects = [
     img: "/projectsImg/Cryptoverse.PNG",
     iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/antdesign.png"],
     link: "https://cryptoversemini.netlify.app/",
+    googleplayLink: "",
+    appstoreLink: ""
   },
   {
     id: 5,
@@ -110,22 +118,18 @@ export const projects = [
     img: "/projectsImg/expensetracker.PNG",
     iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
     link: "https://expensestracker-five.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "PayLoro Website",
-    des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
-    img: "/projectsImg/payloroWeb.PNG",
-    iconLists: [],
-    link: "https://www.payloro.ph/#/",
+    googleplayLink: "",
+    appstoreLink: ""
   },
   {
     id: 7,
-    title: "PayLoro Wallet",
+    title: "PayLoro e-Wallet",
     des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
-    img: "/projectsImg/payloro.jpg",
+    img: "/projectsImg/file.jpg",
     iconLists: [],
     link: "https://www.payloro.ph/#/",
+    googleplayLink: "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
+    appstoreLink: "https://apps.apple.com/ph/app/payloro-app/id1524219078",
   },
 ];
 

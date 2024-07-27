@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaAppStore, FaGooglePlay, FaLocationArrow } from "react-icons/fa6";
 
 export const CardHoverEffect = ({
   items,
@@ -16,6 +17,8 @@ export const CardHoverEffect = ({
     img: string;
     iconLists: string[];
     link: string;
+    googleplayLink: string;
+    appstoreLink: string;
   }[];
   className?: string;
 }) => {
@@ -24,19 +27,13 @@ export const CardHoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  pt-8",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 pt-8",
         className
       )}
     >
       {items.map((item, idx) => (
-        <Link
-          href={item?.link}
-          key={item?.link}
-          target="_blank"
-          className="relative group  block p-2 h-full w-full"
-          onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
+        <div key={item.id} className="relative group  block p-2 h-full w-full" onMouseEnter={() => setHoveredIndex(idx)}
+        onMouseLeave={() => setHoveredIndex(null)}>
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
@@ -56,21 +53,48 @@ export const CardHoverEffect = ({
           </AnimatePresence>
           <Card>
             <Image src={item.img} alt={item.title} width={600} height={600} className="rounded-xl"/>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.des}</CardDescription>
-            <div className="flex items-center pt-4">
-              {item.iconLists.map((icon, index) => (
-                <div
-                  key={icon}
-                  className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                  style={{ transform: `translateX(-${5 * index * 2}px)` }}
+            <CardTitle className="font-bold lg:text-xl md:text-xl text-base">{item.title}</CardTitle>
+            <CardDescription className="lg:text-sm lg:font-normal font-light text-sm">{item.des}</CardDescription>
+            {item.appstoreLink !== "" && item.googleplayLink !== "" ? (
+              <div className="flex items-center justify-between mt-4">
+                <Link
+                  href={item.googleplayLink}
+                  target="_blank"
                 >
-                  <Image src={icon} alt={icon} className="p-2" width={600} height={600}/>
+                  <div className="flex gap-2 items-center">
+                    <p className="font-base lg:text-md text-sm">Google Play</p>
+                    <FaGooglePlay size={22} color="white"/>
+                  </div>
+                </Link>
+
+                <Link
+                  href={item.appstoreLink}
+                  target="_blank"
+                >
+                  <div className="flex gap-2 items-center">
+                    <p className="font-base lg:text-md text-sm">App Store</p>
+                    <FaAppStore size={22} color="white"/>
+                  </div>
+                </Link>
+              </div>
+            ) : (
+              <div className="flex justify-between items-center pt-4">
+                <div key={item.id} className="flex items-center">
+                  {item.iconLists.map((icon, index) => (
+                    <div
+                      key={icon}
+                      className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      style={{ transform: `translateX(-${5 * index * 2}px)` }}
+                    >
+                      <Image src={icon} alt={icon} className="p-2" width={600} height={600}/>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+                <Link href={item.link} target="_blank" className="flex items-center gap-1 font-base lg:text-md text-sm text-purple">Live Demo<FaLocationArrow/></Link>
+              </div>
+            )}
           </Card>
-        </Link>
+        </div>
       ))}
     </div>
   );
@@ -86,7 +110,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-slate-900/[0.8] border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full pt-2 pb-0 px-2 overflow-hidden bg-slate-900/[0.8] border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
