@@ -1,5 +1,4 @@
 export const navItems = [
-  { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#skills" },
   { name: "Testimonials", link: "#testimonials" },
@@ -9,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I focus on client partnership and clear communication in development.",
+    title:
+      "I focus on client partnership and clear communication in development.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -76,50 +76,67 @@ export const projects = [
     title: "Tesla UI",
     des: "Mini project that helps me utilize my skills in responsive web development (Media queries, flex box and SCSS).",
     img: "/projectsImg/teslaclone.PNG",
-    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/sass.svg"],
+    iconLists: ["/skills/frontend/reactjs.png", "/skills/frontend/sass.svg"],
     link: "https://teslaui-eight.vercel.app/",
     googleplayLink: "",
-    appstoreLink: ""
+    appstoreLink: "",
   },
   {
     id: 2,
     title: "Sneaks Ecommerce",
     des: "An Ecommerce project selling different brands  of shoes with cart functionality and responsive web design.",
     img: "/projectsImg/Sneaks.png",
-    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/tailwind.png"],
+    iconLists: [
+      "/skills/frontend/reactjs.png",
+      "/skills/frontend/redux.png",
+      "/skills/frontend/tailwind.png",
+      "/skills/backend/nodejs.png",
+    ],
     link: "https://sneaks-commerce.vercel.app/",
     googleplayLink: "",
-    appstoreLink: ""
+    appstoreLink: "",
   },
   {
     id: 3,
     title: "Weather/News App",
     des: "An app that gets the actual weather status and news, built in react js, redux toolkit and used 3 API's (Open Weather API's and Bing News Api).",
     img: "/projectsImg/weatherapp.PNG",
-    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
+    iconLists: [
+      "/skills/frontend/reactjs.png",
+      "/skills/frontend/redux.png",
+      "/skills/frontend/mui.png",
+    ],
     link: "https://miniweather-news-app.netlify.app/",
     googleplayLink: "",
-    appstoreLink: ""
+    appstoreLink: "",
   },
   {
     id: 4,
     title: "Cryptoverse",
     des: "App that shows all existing crypto coins and their details (price, description, ranking), and news (CoinRanking, Bing News API).",
     img: "/projectsImg/Cryptoverse.PNG",
-    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/antdesign.png"],
+    iconLists: [
+      "/skills/frontend/reactjs.png",
+      "/skills/frontend/redux.png",
+      "/skills/frontend/antdesign.png",
+    ],
     link: "https://cryptoversemini.netlify.app/",
     googleplayLink: "",
-    appstoreLink: ""
+    appstoreLink: "",
   },
   {
     id: 5,
     title: "Expense Tracker",
     des: "A simple CRUD expenses tracker using react js and redux toolkit with localstorage to store expenses history on browser.",
     img: "/projectsImg/expensetracker.PNG",
-    iconLists: ["/skills/frontend/reactjs.png","/skills/frontend/redux.png","/skills/frontend/mui.png"],
+    iconLists: [
+      "/skills/frontend/reactjs.png",
+      "/skills/frontend/redux.png",
+      "/skills/frontend/mui.png",
+    ],
     link: "https://expensestracker-five.vercel.app/",
     googleplayLink: "",
-    appstoreLink: ""
+    appstoreLink: "",
   },
   {
     id: 7,
@@ -128,7 +145,8 @@ export const projects = [
     img: "/projectsImg/file.jpg",
     iconLists: [],
     link: "https://www.payloro.ph/#/",
-    googleplayLink: "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
+    googleplayLink:
+      "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
     appstoreLink: "https://apps.apple.com/ph/app/payloro-app/id1524219078",
   },
 ];
@@ -147,7 +165,7 @@ export const testimonials = [
       "Bryan is an outstanding software developer, always dependable and dedicated to delivering exceptional results. His expertise and uunwavering commitment make him a valuable asset to any team.",
     name: "Ace Leaño",
     title: "Graphic Artist UI/Web Designer of eMandarin Ventures Inc.",
-  }
+  },
 ];
 
 export const companies = [
@@ -193,53 +211,53 @@ export const techStacks = [
     stacks: [
       {
         title: "HTML5",
-        img: "/skills/frontend/html5.png"
+        img: "/skills/frontend/html5.png",
       },
       {
         title: "CSS3",
-        img: "/skills/frontend/css3.png"
+        img: "/skills/frontend/css3.png",
       },
       {
         title: "SASS",
-        img: "/skills/frontend/sass.svg"
+        img: "/skills/frontend/sass.svg",
       },
       {
         title: "Javascript",
-        img: "/skills/frontend/js.png"
+        img: "/skills/frontend/js.png",
       },
       {
         title: "React Js",
-        img: "/skills/frontend/reactjs.png"
+        img: "/skills/frontend/reactjs.png",
       },
       {
         title: "React Redux",
-        img: "/skills/frontend/redux.png"
+        img: "/skills/frontend/redux.png",
       },
       {
         title: "Vue Js",
-        img: "/skills/frontend/vuejs.png"
+        img: "/skills/frontend/vuejs.png",
+      },
+      {
+        title: "Typescript",
+        img: "/skills/frontend/typescript.png",
       },
       {
         title: "Bootstrap",
-        img: "/skills/frontend/bootstrap.png"
+        img: "/skills/frontend/bootstrap.png",
       },
       {
         title: "Material UI",
-        img: "/skills/frontend/mui.png"
+        img: "/skills/frontend/mui.png",
       },
-      // {
-      //   title: "Ant Design",
-      //   img: "/skills/frontend/antdesign.png"
-      // },
-      // {
-      //   title: "tailwind",
-      //   img: "/skills/frontend/tailwind.png"
-      // },
-      // {
-      //   title: "Aceternity",
-      //   img: "/skills/frontend/aceternity.png"
-      // },
-    ]
+      {
+        title: "tailwind",
+        img: "/skills/frontend/tailwind.png",
+      },
+      {
+        title: "Aceternity",
+        img: "/skills/frontend/aceternity.png",
+      },
+    ],
   },
   {
     id: 2,
@@ -248,35 +266,35 @@ export const techStacks = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
     stacks: [
-      // {
-      //   title: "Next Js",
-      //   img: "/skills/backend/nextjs.png"
-      // },
-      // {
-      //   title: "Node Js",
-      //   img: "/skills/backend/nodejs.png"
-      // },
+      {
+        title: "Next Js",
+        img: "/skills/backend/nextjs.png",
+      },
+      {
+        title: "Node Js",
+        img: "/skills/backend/nodejs.png",
+      },
       {
         title: "PHP",
-        img: "/skills/backend/php.png"
+        img: "/skills/backend/php.png",
       },
       {
         title: "Laravel",
-        img: "/skills/backend/laravel.png"
+        img: "/skills/backend/laravel.png",
       },
       {
         title: "Java",
-        img: "/skills/backend/java.png"
+        img: "/skills/backend/java.png",
       },
       {
         title: "Java Spring Boot",
-        img: "/skills/backend/spring.png"
+        img: "/skills/backend/spring.png",
       },
       {
         title: "C#",
-        img: "/skills/backend/c-sharp.png"
+        img: "/skills/backend/c-sharp.png",
       },
-    ]
+    ],
   },
   {
     id: 3,
@@ -287,33 +305,33 @@ export const techStacks = [
     stacks: [
       {
         title: "MySQL",
-        img: "/skills/database/mysql.png"
+        img: "/skills/database/mysql.png",
       },
       {
         title: "PostgreSQL",
-        img: "/skills/database/postgre.png"
+        img: "/skills/database/postgre.png",
       },
       {
         title: "Netlify",
-        img: "/skills/database/netlify.png"
+        img: "/skills/database/netlify.png",
       },
       {
         title: "Vercel",
-        img: "/skills/database/vercel.png"
+        img: "/skills/database/vercel.png",
       },
       {
         title: "Git",
-        img: "/skills/database/git.png"
+        img: "/skills/database/git.png",
       },
       {
         title: "Github",
-        img: "/skills/database/github.png"
+        img: "/skills/database/github.png",
       },
       {
         title: "Gitlab",
-        img: "/skills/database/gitlab.webp"
+        img: "/skills/database/gitlab.webp",
       },
-    ]
+    ],
   },
   {
     id: 4,
@@ -324,33 +342,37 @@ export const techStacks = [
     stacks: [
       {
         title: "VSCode",
-        img: "/skills/tools/vscode.png"
+        img: "/skills/tools/vscode.png",
       },
       {
         title: "Intellij",
-        img: "/skills/tools/intellij.png"
+        img: "/skills/tools/intellij.png",
       },
       {
         title: "DataGrip",
-        img: "/skills/tools/datagrip.png"
+        img: "/skills/tools/datagrip.png",
       },
       {
         title: "Postman",
-        img: "/skills/tools/postman.png"
+        img: "/skills/tools/postman.png",
       },
       {
         title: "NPM",
-        img: "/skills/tools/npm.png"
+        img: "/skills/tools/npm.png",
       },
       {
         title: "ChatGPT",
-        img: "/skills/tools/chatgpt.png"
+        img: "/skills/tools/chatgpt.png",
       },
       {
         title: "Figma",
-        img: "/skills/tools/figma.png"
+        img: "/skills/tools/figma.png",
       },
-    ]
+      {
+        title: "Jest",
+        img: "/skills/tools/jest.png",
+      },
+    ],
   },
 ];
 
@@ -358,16 +380,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/BryanPalad"
+    link: "https://github.com/BryanPalad",
   },
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.facebook.com/BryanPalad.15"
+    link: "https://www.facebook.com/BryanPalad.15",
   },
   {
     id: 3,
     img: "/twit.svg",
-    link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/"
+    link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/",
   },
 ];

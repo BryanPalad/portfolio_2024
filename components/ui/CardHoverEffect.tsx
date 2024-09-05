@@ -32,12 +32,16 @@ export const CardHoverEffect = ({
       )}
     >
       {items.map((item, idx) => (
-        <div key={item.id} className="relative group  block p-2 h-full w-full" onMouseEnter={() => setHoveredIndex(idx)}
-        onMouseLeave={() => setHoveredIndex(null)}>
+        <div
+          key={item.id}
+          className="relative group  block p-2 h-full w-full"
+          onMouseEnter={() => setHoveredIndex(idx)}
+          onMouseLeave={() => setHoveredIndex(null)}
+        >
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -52,28 +56,32 @@ export const CardHoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <Image src={item.img} alt={item.title} width={600} height={600} className="rounded-xl"/>
-            <CardTitle className="font-bold lg:text-xl md:text-xl text-base">{item.title}</CardTitle>
-            <CardDescription className="lg:text-sm lg:font-normal font-light text-sm">{item.des}</CardDescription>
+            <Image
+              src={item.img}
+              alt={item.title}
+              width={600}
+              height={600}
+              className="rounded-xl"
+            />
+            <CardTitle className="font-bold lg:text-xl md:text-xl text-base">
+              {item.title}
+            </CardTitle>
+            <CardDescription className="lg:text-sm lg:font-normal font-light text-sm">
+              {item.des}
+            </CardDescription>
             {item.appstoreLink !== "" && item.googleplayLink !== "" ? (
               <div className="flex items-center justify-between mt-4">
-                <Link
-                  href={item.googleplayLink}
-                  target="_blank"
-                >
+                <Link href={item.googleplayLink} target="_blank">
                   <div className="flex gap-2 items-center">
                     <p className="font-base lg:text-md text-sm">Google Play</p>
-                    <FaGooglePlay size={22} color="white"/>
+                    <FaGooglePlay size={22} color="white" />
                   </div>
                 </Link>
 
-                <Link
-                  href={item.appstoreLink}
-                  target="_blank"
-                >
+                <Link href={item.appstoreLink} target="_blank">
                   <div className="flex gap-2 items-center">
                     <p className="font-base lg:text-md text-sm">App Store</p>
-                    <FaAppStore size={22} color="white"/>
+                    <FaAppStore size={22} color="white" />
                   </div>
                 </Link>
               </div>
@@ -83,14 +91,27 @@ export const CardHoverEffect = ({
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={icon}
-                      className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-transparent/[0.2] rounded-full bg-[#212121] w-10 h-10 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <Image src={icon} alt={icon} className="p-2" width={600} height={600}/>
+                      <Image
+                        src={icon}
+                        alt={icon}
+                        className="p-2"
+                        width={600}
+                        height={600}
+                      />
                     </div>
                   ))}
                 </div>
-                <Link href={item.link} target="_blank" className="flex items-center gap-1 font-base lg:text-md text-sm text-purple">Live Demo<FaLocationArrow/></Link>
+                <Link
+                  href={item.link}
+                  target="_blank"
+                  className="flex items-center gap-1 font-base lg:text-md text-sm text-purple"
+                >
+                  Live Demo
+                  <FaLocationArrow />
+                </Link>
               </div>
             )}
           </Card>
@@ -110,7 +131,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full pt-2 pb-0 px-2 overflow-hidden bg-slate-900/[0.8] border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full pt-2 pb-0 px-2 overflow-hidden bg-slate-900/[0.8] border border-transparent dark:border-transparent/[0.2] group-hover:border-transparent relative z-20",
         className
       )}
     >
