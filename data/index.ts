@@ -85,7 +85,7 @@ export const projects = [
     id: 2,
     title: "Sneaks Ecommerce",
     des: "An Ecommerce project selling different brands  of shoes with cart functionality and responsive web design.",
-    img: "/projectsImg/Sneaks.png",
+    img: "/projectsImg/Sneaks.PNG",
     iconLists: [
       "/skills/frontend/reactjs.png",
       "/skills/frontend/redux.png",
