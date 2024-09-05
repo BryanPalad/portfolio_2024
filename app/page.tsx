@@ -7,9 +7,6 @@ import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
-import { TracingBeam } from "@/components/ui/TracingBeam";
 
 export default function Home() {
   return (

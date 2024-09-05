@@ -6,20 +6,22 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaAppStore, FaGooglePlay, FaLocationArrow } from "react-icons/fa6";
 
+interface ItemsProps {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  link: string;
+  googleplayLink: string;
+  appstoreLink: string;
+}
+
 export const CardHoverEffect = ({
   items,
   className,
 }: {
-  items: {
-    id: number;
-    title: string;
-    des: string;
-    img: string;
-    iconLists: string[];
-    link: string;
-    googleplayLink: string;
-    appstoreLink: string;
-  }[];
+  items: ItemsProps[];
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

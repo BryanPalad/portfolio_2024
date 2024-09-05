@@ -9,15 +9,17 @@ import {
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
+interface NavItemsProps {
+  name: string;
+  link: string;
+  icon?: JSX.Element;
+}
+
 export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: {
-    name: string;
-    link: string;
-    icon?: JSX.Element;
-  }[];
+  navItems: NavItemsProps[];
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();

@@ -3,6 +3,13 @@
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
 
+interface ItemsProps {
+  quote: string;
+  name: string;
+  title: string;
+  profile: string;
+}
+
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
@@ -10,12 +17,7 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: {
-    quote: string;
-    name: string;
-    title: string;
-    profile: string;
-  }[];
+  items: ItemsProps[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -92,7 +94,7 @@ export const InfiniteMovingCards = ({
             style={{
               background: "rgb(4,7,29)",
               backgroundColor:
-              "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"
+                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
             key={idx}
           >
@@ -107,14 +109,18 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src={item.profile} alt="profile" className="w-[60px] h-[60px] rounded-full"/>
+                    <img
+                      src={item.profile}
+                      alt="profile"
+                      className="w-[60px] h-[60px] rounded-full"
+                    />
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className=" text-xl leading-[1.6] text-white font-bold">
-                        {item.name}
+                      {item.name}
                     </span>
                     <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                        {item.title}
+                      {item.title}
                     </span>
                   </div>
                 </span>
