@@ -78,6 +78,7 @@ export const projects = [
     img: "/projectsImg/teslaclone.PNG",
     iconLists: ["/skills/frontend/reactjs.png", "/skills/frontend/sass.svg"],
     link: "https://teslaui-eight.vercel.app/",
+    github: "",
     googleplayLink: "",
     appstoreLink: "",
   },
@@ -90,9 +91,10 @@ export const projects = [
       "/skills/frontend/reactjs.png",
       "/skills/frontend/redux.png",
       "/skills/frontend/tailwind.png",
-      "/skills/backend/nodejs.png",
+      // "/skills/backend/nodejs.png",
     ],
     link: "https://sneaks-commerce.vercel.app/",
+    github: "",
     googleplayLink: "",
     appstoreLink: "",
   },
@@ -107,6 +109,7 @@ export const projects = [
       "/skills/frontend/mui.png",
     ],
     link: "https://miniweather-news-app.netlify.app/",
+    github: "",
     googleplayLink: "",
     appstoreLink: "",
   },
@@ -121,6 +124,7 @@ export const projects = [
       "/skills/frontend/antdesign.png",
     ],
     link: "https://cryptoversemini.netlify.app/",
+    github: "",
     googleplayLink: "",
     appstoreLink: "",
   },
@@ -135,6 +139,23 @@ export const projects = [
       "/skills/frontend/mui.png",
     ],
     link: "https://expensestracker-five.vercel.app/",
+    github: "",
+    googleplayLink: "",
+    appstoreLink: "",
+  },
+  {
+    id: 6,
+    title: "Online Appointment System for Fernandez Dental Clinic",
+    des: "A project that helps dental clinic on their appointment schedules.",
+    img: "/projectsImg/FernandezDentalClinic.PNG",
+    iconLists: [
+      "/skills/backend/php.png",
+      "/skills/frontend/css3.png",
+      "/skills/frontend/bootstrap.png",
+      "/skills/database/mysql.png",
+    ],
+    link: "",
+    github:"https://github.com/BryanPalad/FernandezDentalClinic",
     googleplayLink: "",
     appstoreLink: "",
   },
@@ -145,6 +166,7 @@ export const projects = [
     img: "/projectsImg/file.jpg",
     iconLists: [],
     link: "https://www.payloro.ph/#/",
+    github: "",
     googleplayLink:
       "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
     appstoreLink: "https://apps.apple.com/ph/app/payloro-app/id1524219078",
@@ -263,16 +285,12 @@ export const techStacks = [
     id: 2,
     title: "Backend",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
     stacks: [
       {
         title: "Next Js",
         img: "/skills/backend/nextjs.png",
-      },
-      {
-        title: "Node Js",
-        img: "/skills/backend/nodejs.png",
       },
       {
         title: "PHP",
@@ -300,7 +318,7 @@ export const techStacks = [
     id: 3,
     title: "Deployment & Database",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
     stacks: [
       {
@@ -385,11 +403,11 @@ export const socialMedia = [
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.facebook.com/BryanPalad.15",
+    link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/",
   },
   {
     id: 3,
-    img: "/twit.svg",
-    link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/bryan_palad/",
   },
 ];

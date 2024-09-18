@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="h-screen flex justify-center items-center">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -35,7 +35,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m{" "}
+            Hi! I&apos;m{" "}
             <span className="text-purple font-semibold">Bryan</span>, a Software
             Developer / Front-End Engineer based in Philippines.
           </p>

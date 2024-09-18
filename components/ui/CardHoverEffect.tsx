@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FaAppStore, FaGooglePlay, FaLocationArrow } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaAppStore, FaGithub, FaGooglePlay, FaLocationArrow } from "react-icons/fa6";
 
 interface ItemsProps {
   id: number;
@@ -13,6 +14,7 @@ interface ItemsProps {
   img: string;
   iconLists: string[];
   link: string;
+  github: string;
   googleplayLink: string;
   appstoreLink: string;
 }
@@ -106,7 +108,17 @@ export const CardHoverEffect = ({
                     </div>
                   ))}
                 </div>
-                <Link
+                {item.link === "" ? (<>
+                  <Link
+                  href={item.github}
+                  target="_blank"
+                  className="flex items-center gap-1 font-base lg:text-md text-sm text-purple"
+                >
+                  Github
+                  <FaGithub />
+                </Link>
+                </>) : (<>
+                  <Link
                   href={item.link}
                   target="_blank"
                   className="flex items-center gap-1 font-base lg:text-md text-sm text-purple"
@@ -114,6 +126,7 @@ export const CardHoverEffect = ({
                   Live Demo
                   <FaLocationArrow />
                 </Link>
+                </>)}
               </div>
             )}
           </Card>
