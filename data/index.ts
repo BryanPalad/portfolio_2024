@@ -296,10 +296,10 @@ export const techStacks = [
         title: "PHP",
         img: "/skills/backend/php.png",
       },
-      {
-        title: "Laravel",
-        img: "/skills/backend/laravel.png",
-      },
+      // {
+      //   title: "Laravel",
+      //   img: "/skills/backend/laravel.png",
+      // },
       {
         title: "Java",
         img: "/skills/backend/java.png",
