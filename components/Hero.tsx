@@ -4,6 +4,8 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import Link from "next/link";
+import Image from "next/image";
+import BryanPalad from "@/public/heroImg/BryanPalad2.png";
 
 const Hero = () => {
   return (
@@ -26,6 +28,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          {/* <Image src={BryanPalad} alt="Bryan Palad" className="w-[300px] rounded-full"/> */}
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Powered by Next.js and Aceternity UI
           </h2>
