@@ -22,7 +22,7 @@ export default function Home() {
         <RecentProjects />
         <Skills />
         <Testimonials />
-        <Approach />
+        {/* <Approach /> */}
         <Footer />
       </div>
     </main>
