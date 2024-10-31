@@ -17,7 +17,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 lg:mt-2 mt-4">
-          <a href="mailto:paladbryanj@gmail.com">
+          <a href="/#about">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
