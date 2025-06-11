@@ -176,7 +176,7 @@ export const projects = [
 
 export const testimonials = [
   {
-    src: "/testimonialsImg/mariferalcon.jfif",
+    src: "/testimonialsImg/mariferalcon.jpg",
     quote:
       "Bryan was a great colleague and easy to communicate with about the work or tasks given. He was easy to talk to when I faced a challenge I didn't understand. I liked working with Bryan, he had a great attitude at the office and was very passionate being a web developer. He was a perfectionist about small details and would correct you in a good way.",
     name: "Marifer Alcon",

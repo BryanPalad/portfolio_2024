@@ -5,7 +5,7 @@ const Experience = () => {
   const currentMonth = currentDate.getMonth() + 1;
   const data = [
     {
-      title: "Full-stack Developer",
+      title: "Full Stack Developer",
       content: (
         <div>
           <h5 className="mb-2 text-sm font-semibold md:text-lg text-white">
