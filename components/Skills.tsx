@@ -25,6 +25,7 @@ const Skills = () => {
                 {card.stacks.map((item, index) => (
                   <div key={index} className="flex gap-2 items-center">
                     <img
+                      alt={item.title}
                       key={index}
                       src={item.img}
                       className="w-[40px] h-[40px] lg:w-[50px] lg:h-[50px]"

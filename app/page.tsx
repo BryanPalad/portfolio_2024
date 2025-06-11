@@ -7,6 +7,7 @@ import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <Experience />
         <RecentProjects />
         <Skills />
         <Testimonials />
