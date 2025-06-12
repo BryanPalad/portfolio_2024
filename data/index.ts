@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "Work", link: "#experience" },
-  { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#skills" },
+  { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -223,6 +223,99 @@ export const companies = [
   //   nameImg: "/dockerName.svg",
   // },
 ];
+
+export const frontEndStack = [
+  {
+    title: "HTML5",
+    img: "/skills/frontend/html5.png",
+  },
+  {
+    title: "CSS3",
+    img: "/skills/frontend/css3.png",
+  },
+  {
+    title: "SASS",
+    img: "/skills/frontend/sass.svg",
+  },
+  {
+    title: "Javascript",
+    img: "/skills/frontend/js.png",
+  },
+  {
+    title: "React Js",
+    img: "/skills/frontend/reactjs.png",
+  },
+  {
+    title: "React Redux",
+    img: "/skills/frontend/redux.png",
+  },
+  {
+    title: "Vue Js",
+    img: "/skills/frontend/vuejs.png",
+  },
+  {
+    title: "Typescript",
+    img: "/skills/frontend/typescript.png",
+  }
+]
+
+export const backEndStack = [
+  {
+    title: "Next Js",
+    img: "/skills/backend/nextjs.png",
+  },
+  {
+    title: "PHP",
+    img: "/skills/backend/php.png",
+  },
+  // {
+  //   title: "Laravel",
+  //   img: "/skills/backend/laravel.png",
+  // },
+  {
+    title: "Java",
+    img: "/skills/backend/java.png",
+  },
+  {
+    title: "Java Spring Boot",
+    img: "/skills/backend/spring.png",
+  },
+  {
+    title: "C#",
+    img: "/skills/backend/c-sharp.png",
+  },
+]
+
+export const toolsUsed = [
+  {
+    title: "MySQL",
+    img: "/skills/database/mysql.png",
+  },
+  {
+    title: "PostgreSQL",
+    img: "/skills/database/postgre.png",
+  },
+  {
+    title: "Netlify",
+    img: "/skills/database/netlify.png",
+  },
+  {
+    title: "Vercel",
+    img: "/skills/database/vercel.png",
+  },
+  {
+    title: "Git",
+    img: "/skills/database/git.png",
+  },
+  {
+    title: "Github",
+    img: "/skills/database/github.png",
+  },
+  {
+    title: "Gitlab",
+    img: "/skills/database/gitlab.webp",
+  },
+]
 
 export const techStacks = [
   {

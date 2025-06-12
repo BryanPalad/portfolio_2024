@@ -21,8 +21,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <Experience />
-        <RecentProjects />
         <Skills />
+        <RecentProjects />
         <Testimonials />
         {/* <Approach /> */}
         <Footer />

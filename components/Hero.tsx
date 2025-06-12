@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <Image src={BryanPalad} alt="Bryan Palad" className="w-[150px] md:w-[200px] rounded-full bg-white shadow-xl"/>
+          <Image priority={true} src={BryanPalad} alt="Bryan Palad" className="w-[150px] md:w-[200px] rounded-full bg-white shadow-xl"/>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Designs into Interactive User Interfaces"
