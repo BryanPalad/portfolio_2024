@@ -6,6 +6,9 @@ import { FaFileDownload } from "react-icons/fa";
 import Image from "next/image";
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+  
   return (
     <footer className="w-full pb-10 mb-[60px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
@@ -38,7 +41,7 @@ const Footer = () => {
 
       <div className="flex flex-col mt-16 md:flex-row justify-between items-center gap-8 md:gap-4">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Bryan
+          Copyright © {year} Bryan
         </p>
                   <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
                     Powered by Next, TS and Aceternity UI

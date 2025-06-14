@@ -238,6 +238,14 @@ export const frontEndStack = [
     img: "/skills/frontend/sass.svg",
   },
   {
+    title: "Tailwind CSS",
+    img: "/skills/frontend/tailwind.png",
+  },
+  {
+    title: "Material UI",
+    img: "/skills/frontend/mui.png",
+  },
+  {
     title: "Javascript",
     img: "/skills/frontend/js.png",
   },
@@ -268,10 +276,6 @@ export const backEndStack = [
     title: "PHP",
     img: "/skills/backend/php.png",
   },
-  // {
-  //   title: "Laravel",
-  //   img: "/skills/backend/laravel.png",
-  // },
   {
     title: "Java",
     img: "/skills/backend/java.png",
@@ -286,7 +290,7 @@ export const backEndStack = [
   },
 ]
 
-export const toolsUsed = [
+export const databaseUsed = [
   {
     title: "MySQL",
     img: "/skills/database/mysql.png",
@@ -294,6 +298,10 @@ export const toolsUsed = [
   {
     title: "PostgreSQL",
     img: "/skills/database/postgre.png",
+  },
+  {
+    title: "MongoDB",
+    img: "/skills/database/mongodb.svg",
   },
   {
     title: "Netlify",
@@ -315,6 +323,57 @@ export const toolsUsed = [
     title: "Gitlab",
     img: "/skills/database/gitlab.webp",
   },
+  {
+    title: "Supabase",
+    img: "/skills/database/supabase.png",
+  }
+]
+
+export const toolsUsed = [
+  {
+    title: "VSCode",
+    img: "/skills/tools/vscode.png",
+  },
+  {
+    title: "Intellij",
+    img: "/skills/tools/intellij.png",
+  },
+  {
+    title: "DataGrip",
+    img: "/skills/tools/datagrip.png",
+  },
+  {
+    title: "Postman",
+    img: "/skills/tools/postman.png",
+  },
+  {
+    title: "NPM",
+    img: "/skills/tools/npm.png",
+  },
+  {
+    title: "ChatGPT",
+    img: "/skills/tools/chatgpt.png",
+  },
+  {
+    title: "Figma",
+    img: "/skills/tools/figma.png",
+  },
+  {
+    title: "Jest",
+    img: "/skills/tools/jest.png",
+  },
+  {
+    title: "Shopify",
+    img: "/skills/tools/shopify.webp",
+  },
+  {
+    title: "Wordpress",
+    img: "/skills/tools/wordpress.png",
+  },
+  {
+    title: "Elementor",
+    img: "/skills/tools/elementor.webp",
+  }
 ]
 
 export const techStacks = [
