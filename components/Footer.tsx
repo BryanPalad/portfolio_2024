@@ -10,7 +10,7 @@ const Footer = () => {
   const year = date.getFullYear();
   
   return (
-    <footer className="w-full pb-10 mb-[60px] md:mb-5" id="contact">
+    <footer className="w-full md:pt-24 pt-0 pb-10 mb-[60px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> digital
