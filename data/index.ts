@@ -156,21 +156,34 @@ export const projects = [
       "/skills/database/mysql.png",
     ],
     link: "",
-    github:"https://github.com/BryanPalad/FernandezDentalClinic",
+    github: "https://github.com/BryanPalad/FernandezDentalClinic",
     googleplayLink: "",
     appstoreLink: "",
   },
+  // {
+  //   id: 7,
+  //   title: "PayLoro e-Wallet",
+  //   des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
+  //   img: "/projectsImg/file.jpg",
+  //   iconLists: [],
+  //   link: "https://www.payloro.ph/#/",
+  //   github: "",
+  //   googleplayLink:
+  //     "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
+  //   appstoreLink: "https://apps.apple.com/ph/app/payloro-app/id1524219078",
+  // },
   {
-    id: 7,
-    title: "PayLoro e-Wallet",
-    des: "App that provides a more convenient transaction processing method for customers, giving businesses that employ this technology a competitive edge in the market.",
-    img: "/projectsImg/file.jpg",
-    iconLists: [],
-    link: "https://www.payloro.ph/#/",
+    id: 4,
+    title: "Oudbotanicals",
+    des: "Shopify-based multinational e-commerce site featuring location-based currency and language conversion, integrated payments, and dropshipping support.",
+    img: "/projectsImg/oudbotanicals.png",
+    iconLists: [
+      "/skills/tools/shopify.webp",
+    ],
+    link: "https://oudbotanicals.org/en-ph",
     github: "",
-    googleplayLink:
-      "https://play.google.com/store/apps/details?id=paylor.com&hl=en",
-    appstoreLink: "https://apps.apple.com/ph/app/payloro-app/id1524219078",
+    googleplayLink: "",
+    appstoreLink: "",
   },
 ];
 
@@ -262,16 +275,16 @@ export const frontEndStack = [
     img: "/skills/frontend/vuejs.png",
   },
   {
-    title: "Typescript",
-    img: "/skills/frontend/typescript.png",
-  }
-]
-
-export const backEndStack = [
-  {
     title: "Next Js",
     img: "/skills/backend/nextjs.png",
   },
+  {
+    title: "Typescript",
+    img: "/skills/frontend/typescript.png",
+  },
+];
+
+export const backEndStack = [
   {
     title: "PHP",
     img: "/skills/backend/php.png",
@@ -288,7 +301,7 @@ export const backEndStack = [
     title: "C#",
     img: "/skills/backend/c-sharp.png",
   },
-]
+];
 
 export const databaseUsed = [
   {
@@ -304,12 +317,8 @@ export const databaseUsed = [
     img: "/skills/database/mongodb.svg",
   },
   {
-    title: "Netlify",
-    img: "/skills/database/netlify.png",
-  },
-  {
-    title: "Vercel",
-    img: "/skills/database/vercel.png",
+    title: "Supabase",
+    img: "/skills/database/supabase.png",
   },
   {
     title: "Git",
@@ -324,10 +333,18 @@ export const databaseUsed = [
     img: "/skills/database/gitlab.webp",
   },
   {
-    title: "Supabase",
-    img: "/skills/database/supabase.png",
-  }
-]
+    title: "Netlify",
+    img: "/skills/database/netlify.png",
+  },
+  {
+    title: "Vercel",
+    img: "/skills/database/vercel.png",
+  },
+  {
+    title: "Namecheap",
+    img: "/skills/database/namecheap.webp",
+  },
+];
 
 export const toolsUsed = [
   {
@@ -373,8 +390,8 @@ export const toolsUsed = [
   {
     title: "Elementor",
     img: "/skills/tools/elementor.webp",
-  }
-]
+  },
+];
 
 export const techStacks = [
   {

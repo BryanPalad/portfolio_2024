@@ -29,7 +29,7 @@ const Footer = () => {
             />
           </a>
 
-          <a href="/files/BryanPalad.pdf" download>
+          <a href="/files/BryanPalad-CV.pdf" download>
             <MagicButton
               title="Download CV"
               icon={<FaFileDownload />}
