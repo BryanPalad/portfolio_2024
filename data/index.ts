@@ -574,10 +574,5 @@ export const socialMedia = [
     id: 2,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/bryan-justin-palad-4632b3234/",
-  },
-  {
-    id: 3,
-    img: "/insta.svg",
-    link: "https://www.instagram.com/bryan_palad/",
-  },
+  }
 ];
